@@ -1,0 +1,132 @@
+* {
+   
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.toparea{
+    background-color: #ffffff;
+    color: black;
+    float: left;
+}
+.logoarea {
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(45deg, rgba(0, 39, 94, 1) 0%, rgba(6, 112, 169, 1) 100%);
+    display: flex;
+}
+.logoarea img{
+    padding-left: 100px;
+    padding-top: 25px;
+}
+.slidearea img{
+    width: 100%;
+}
+.marea{
+    background: linear-gradient(45deg, rgba(0, 39, 94, 1) 0%, rgba(6, 112, 169, 1) 100%);
+}
+.marea p{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.toolarea{
+    height: 200px;
+    background: linear-gradient(45deg, rgba(0, 39, 94, 1) 0%, rgba(6, 112, 169, 1) 100%);
+}
+.box{
+    
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 200px;
+    height: 130px;
+    padding-left: 20px;
+    border: solid 1px black;
+    background-color: #fff;
+    float: left;
+    border-radius: 13px;
+}
+/*
+.box1{
+    
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 211px;
+    height: 130px;
+    padding-left: 20px;
+    box-shadow: 10px black;
+    background-color: #ffffff;
+    float: left;
+    border-radius: 13px;
+}  */
+.glance{
+    margin: auto;
+    align-items: center;
+    height: 300px;
+}
+.box1 {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    float: left;
+}
+
+.box1:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.box1 img {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.box1 h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333; /* Adjust as needed */
+    margin-top: 10px;
+}
+.row1 {
+    justify-content: center; /* Center the items */
+    gap: 20px; /* Space between items */
+}
+
+.photo{
+    height: 200px;
+    background-color:  rgba(6, 112, 169, 1);
+}
+footer {
+background: linear-gradient(45deg, rgba(0, 39, 94, 1) 0%, rgba(6, 112, 169, 1) 100%);
+ color: white;
+ padding: 20px;
+ text-align: center;
+}
+
+.footer {
+ display: flex;
+ justify-content: space-between;
+}
+
+.footer a {
+ color: white;
+ text-decoration: none;
+ padding: 5px;
+}
+
+.footer a:hover {
+ text-decoration: underline;
+}
